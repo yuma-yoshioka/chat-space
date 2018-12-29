@@ -1,0 +1,39 @@
+@import "./color";
+.side-bar{
+	float: left;
+	width: 300px;
+	.header{
+		padding: 0 20px;
+		background-color:  #253141;
+		h3.header{
+			color: #FFFFFF;
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 100px;
+			display: inline-block;
+		}
+		.icon{
+			color: #FFFFFF;
+      font-size: 16px;
+      float: right;
+      line-height: 100px;
+		}
+	}
+	.groups{
+		height: calc(100vh - 100px);
+		padding: 0 20px;
+		background-color: #2f3e51;
+		ul.groups_name-messages{
+			padding: 20px 0 40px;
+			color: #FFFFFF;
+			.group_name{
+				font-size: 15px;
+			}
+			.group_message{
+				font-size: 11px;
+				padding-top: 5px;
+			}
+		}
+	}
+}
+
