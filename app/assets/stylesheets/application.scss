@@ -1,4 +1,12 @@
 @import "./reset";
+@import "./index-header";
 @import "./index-leftcontents";
 @import "./index-maincontents";
 @import "font-awesome";
+
+@import "./color";
+@import "./mixin";
+
+.wrapper{
+	display: flex;
+}
