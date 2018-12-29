@@ -3,6 +3,7 @@
 	float: right;
 	width: calc(100vw - 300px);
 	box-sizing: border-box;
+	min-width: 500px;
 	.header{
 		border-bottom: solid 1px #eeeeee;
 		height: 100px;
