@@ -1,0 +1,35 @@
+.chat
+	.header
+		.left-header
+			%p.chat_group
+				sampleグループ
+			%ul.chat_member
+				Member:
+				%li.member
+					aaaa
+		.right-header
+			= link_to "Edit", "#", class:"right-header__button"
+	.chat-post
+		%ul.post
+			%li
+				%p.post-name
+					aaaa
+				%p.post-time
+					2018/12/24
+				%p.post-message
+					sample
+			%li
+				%p.post-name
+					aaaa
+				%p.post-time
+					2018/12/24
+				%p.post-message
+					sample	
+	= form_tag do
+		.form
+			%input{type: "text", name: "text", placeholder: "type a text", class: "text"}
+			.form_mask
+				%label
+					%input{type: "file", name: "file", class: "file"}
+					%i.fa.fa-image.icon
+			%input{type: "submit", value: "Send", class: "submit"}
