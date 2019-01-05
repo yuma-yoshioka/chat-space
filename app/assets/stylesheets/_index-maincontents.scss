@@ -28,11 +28,11 @@
 			.right-header{
 				float: right;
 				color: $lightblue;
-      height: 40px;
-      line-height: 40px;
-      margin-top: 28px;
-      padding: 0 20px;
-      border: solid 1px  #38AEF0;
+      	height: 40px;
+      	line-height: 40px;
+      	margin-top: 28px;
+      	padding: 0 20px;
+      	border: solid 1px  #38AEF0;
       .right-header__button {
         text-decoration: none;
       }
@@ -59,8 +59,8 @@
     }
     p.post-message{
     	font-size: 14px;
-       color: $charcoalgray;
-       padding-bottom: 40px;
+      color: $charcoalgray;
+      padding-bottom: 40px;
     }
 	}
 
@@ -93,15 +93,14 @@
 		} 
 	}
 	.submit {
-      height: 50px;
-      line-height: 50px;
-      margin-left: 15px;
-      padding: 0 30px;
-      color: white;
-      background-color: $lightblue;
-      float: right;
-      border: none;
-
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+    padding: 0 30px;
+    color: white;
+    background-color: $lightblue;
+    float: right;
+    border: none;
     }
   }
 }
