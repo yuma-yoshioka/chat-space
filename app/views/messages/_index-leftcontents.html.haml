@@ -2,9 +2,13 @@
 	.header
 		%h3.header	
 			ユーザー名aaaaaaa
-			.icon
-				%i.fa.fa-cog
-				%i.fa.fa-pencil-square-o
+			%ul.header_lists
+				%li.list
+					= link_to do
+						= fa_icon 'pencil-square-o', class: 'icon'
+				%li.list	
+					= link_to edit_user_path(current_user) do
+						= fa_icon 'cog', class: 'icon'
 	.groups
 		%ul.groups_name-messages
 			%li
